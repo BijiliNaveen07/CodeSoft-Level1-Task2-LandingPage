@@ -1,0 +1,211 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body, html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+.navbar-container{
+    background-color: #fff;
+}
+.logo{
+    height: 13vh;
+    padding: 10px;
+}
+.collapse ul{
+    margin-right: 10vh;
+}
+.collapse ul li a{
+    font-size: 25px;
+    font-weight: 500;
+    color: #090505;
+}
+.nav-link{
+    color:rgb(8, 5, 7) !important;
+}
+.nav-link:hover{
+    color: rgb(237, 14, 14) !important;
+}
+/* banner section*/
+.item-img{
+    height: 85vh;
+}
+.img-class{
+    height: 100%;
+    object-fit: cover;
+}
+.display-1{
+    color:#F273E6;
+    
+}
+.display-2{
+    color: #394867;
+}
+/* Our love Story */
+.ourStory{
+    width: 100%;
+    height: 50vh;
+}
+.OurStory{
+    background-image: linear-gradient(to right, #f30ec4, #d035d6, #a74ae3, #7357ea, #1260eb);
+}
+.lovestory-heading1{
+    padding-top: 50px;
+    font-family: serif;
+    color: #fff;
+}
+.banner-heading1{
+    color:yellow;
+    font-size: 10vh;
+}
+.loverstory-pera1{
+    font-size: 25px;
+    margin-right: 25px;
+    color: #fff;
+}
+.ourStory{
+    margin: 10px;
+    border-radius: 50px;
+    padding-top: 25px;
+    width: 100%;
+    height: auto;
+}
+.loverStory2{
+    font-size: 25px;
+    color: #fff;
+    margin-left: 25px;
+}
+/*gallary section */
+.heading-gallary{
+    text-align: center;
+    padding-top: 15px;
+    font-size: 40px;
+    color: #fff;
+}
+.gallary{
+    background-image: linear-gradient(to right top, #e30cb7, #ff0286, #ff4459, #ff7232, #eb9812);
+}
+.gallary3{
+    width: 100%;
+    margin: 15px;
+
+}
+.gallary4{
+    width: 100%;
+    margin: 15px;
+
+}
+/*Services*/
+.Services{
+    background-image: linear-gradient(to right top, #19e021, #88cd00, #b8b700, #d8a000, #eb8812);
+}
+.services-heading{
+    text-align: center;
+    font-size: 50px;
+    padding: 15px;
+    color: #fff;
+}
+.full-Package{
+    border-radius: 25px;
+    margin: 15px;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.25);
+    background-image: linear-gradient(to right top, #19e021, #88cd00, #b8b700, #d8a000, #eb8812);
+}
+.image-services{
+    width: 100%;
+    border-radius: 25px;
+    padding: 10px;
+}
+.discription{
+    text-align: center;
+    color: #fff;
+}
+/*Contact me */
+.contact-me{
+    text-align: center;
+}
+.contact-section{
+    background-image: url(images/contact1.jpg);
+    background-position: center;
+    background-size: cover;
+    place-content: center;
+}
+.contact-heading{
+    text-align: center;
+    padding: 25px;
+    color: #fff;
+}
+.contact-container{
+    margin: 15px;
+}
+.contact-info{
+    padding-left: 25px;
+    margin-left: 80px;
+}
+.name {
+    border-radius: 15px;
+}
+.email{
+    border-radius: 15px;
+}
+.sms{
+    border-radius: 15px;
+}
+.form-group{
+    width: 60%;
+    margin: 25px 0px;
+    border-radius: 15px;
+}
+
+.form-group input{
+    width: 100%;
+    height: 50px;
+    padding: 0 20px;
+    border: 10px;
+    outline: none;
+    font-size: 1rem;
+}
+.form-group textarea{
+    width: 100%;
+    border: 10px;
+    outline: none;
+    resize: none;
+    padding: 20px;
+}
+.contact-button{
+    width: 40%;
+    height: 50px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: 0.5s;
+    border-radius: 10px;
+    margin-bottom: 15px;
+
+}
+.contact-button:hover{
+    background: rgba(0, 0, 0, 0.5)
+}
+/*Footer*/
+.footer{
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+    padding: 25px;
+    font-size: 20px;
+}
+.copyright i{
+    color: red;
+}
+.copyright{
+    font-size: 19px;
+}
